@@ -5,11 +5,10 @@ Guardian IDE is a developer-centric security extension for Visual Studio Code th
 
 Guardian finds problems, explains why they are a risk, and provides one-click "Quick Fix" actions to resolve them, making the secure way the easiest way.
 
-Key Features in Action
-(Recommended: Replace these links with actual GIFs of the extension working)
+(Key Features in Action)
 
 Dependency Scanning	Secret Detection	Dockerfile Analysis
-Finds vulnerabilities in NPM & Python packages.	Detects hardcoded API keys and passwords.	Flags security misconfigurations in your Dockerfiles.
+[Finds vulnerabilities in NPM & Python packages]	[Detects hardcoded API keys and passwords]	[Flags security misconfigurations in your Dockerfiles]
 
 Export to Sheets
 Core Features
@@ -59,11 +58,14 @@ JSON
     "DF003": "Information"
   }
 }
+
+
 ignoreRules: An array of strings. Add any rule ID to this list to prevent it from being reported.
 Example: "hardcoded-secret" will disable all secret scanning.
 Example: "DF001" will disable only the "Avoid running as root user" check in Dockerfiles.
 ignoreVulnerabilities: An array of strings. Add any specific vulnerability ID (e.g., a CVE number or GHS ID) to suppress it across all dependency scans.
 severityOverrides: An object that maps a rule ID to a desired severity level ("Error", "Warning", "Information", or "Hint").
+
 Commands and UI
 Guardian IDE adds a shield icon to your Activity Bar. From here, you can manually trigger scans:
 
