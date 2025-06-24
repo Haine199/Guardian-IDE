@@ -11,7 +11,7 @@ Dependency Scanning	Secret Detection	Dockerfile Analysis
 [Finds vulnerabilities in NPM & Python packages]	[Detects hardcoded API keys and passwords]	[Flags security misconfigurations in your Dockerfiles]
 
 
-Core Features
+(Core Features)
 Guardian IDE provides a suite of scanners to cover the most common security issues in modern development:
 
 📦 Dependency Scanning:
@@ -32,13 +32,13 @@ Link directly to documentation about secret management and Dockerfile best pract
 ⚙️ Fully Configurable:
 
 Use a simple guardian.json file to ignore specific rules, suppress vulnerability IDs, and override the severity of any issue to fit your project's needs.
-Getting Started
+(Getting Started)
 Go to the Extensions view in VS Code (Ctrl+Shift+X).
 Search for "Guardian IDE".
 Click Install.
 Once installed, Guardian IDE will automatically activate when you open a project containing supported files.
 
-Configuration
+(Configuration)
 To customize Guardian's behavior for your project, create a guardian.json file in the root of your workspace.
 
 Here is an example of a guardian.json file:
@@ -66,7 +66,7 @@ Example: "DF001" will disable only the "Avoid running as root user" check in Doc
 ignoreVulnerabilities: An array of strings. Add any specific vulnerability ID (e.g., a CVE number or GHS ID) to suppress it across all dependency scans.
 severityOverrides: An object that maps a rule ID to a desired severity level ("Error", "Warning", "Information", or "Hint").
 
-Commands and UI
+(Commands and UI)
 Guardian IDE adds a shield icon to your Activity Bar. From here, you can manually trigger scans:
 
 Run Dependency Scan: Scans package.json for vulnerabilities.
@@ -75,7 +75,7 @@ Scan File for Secrets: Scans the currently active file for hardcoded secrets.
 Scan Dockerfile: Scans the currently active Dockerfile for misconfigurations.
 
 
-License
+(License)
 This extension is licensed under the MIT License.
 
 Development & Contributing
