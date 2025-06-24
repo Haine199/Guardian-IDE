@@ -10,7 +10,7 @@ Guardian finds problems, explains why they are a risk, and provides one-click "Q
 Dependency Scanning	Secret Detection	Dockerfile Analysis
 [Finds vulnerabilities in NPM & Python packages]	[Detects hardcoded API keys and passwords]	[Flags security misconfigurations in your Dockerfiles]
 
-Export to Sheets
+
 Core Features
 Guardian IDE provides a suite of scanners to cover the most common security issues in modern development:
 
