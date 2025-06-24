@@ -1,0 +1,8 @@
+{
+  "ignoreRules": [
+    "DF001"
+  ],
+  "severityOverrides": {
+    "DF002": "Information"
+  }
+}
